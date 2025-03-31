@@ -145,11 +145,17 @@ Edit
 
 flaskr/
 ├── __init__.py        # App factory
+
 ├── auth.py            # Authentication blueprint
+
 ├── blog.py            # Blog post blueprint
+
 ├── db.py              # Database connection + CLI
+
 ├── schema.sql         # DB schema
+
 ├── static/            # CSS files
+
 └── templates/         # HTML templates
 
 📚 What You'll Learn
