@@ -15,17 +15,27 @@ This is a minimal blog application built using **Flask**, based on the official 
 ### 📦 Clone this repo
 
 ```bash
+
 git clone https://github.com/YOUR_USERNAME/flask_tutorial.git
+
 cd flask_tutorial
+
 🐍 Set up a virtual environment
 Using Python:
+
 bash
+
 Copy
+
 Edit
+
 python -m venv .venv
+
 # Windows
+
 .venv\Scripts\activate
 # macOS/Linux
+
 source .venv/bin/activate
 Or using Conda:
 bash
