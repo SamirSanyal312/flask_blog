@@ -34,64 +34,115 @@ python -m venv .venv
 # Windows
 
 .venv\Scripts\activate
+
 # macOS/Linux
 
 source .venv/bin/activate
+
 Or using Conda:
+
 bash
+
 Copy
+
 Edit
+
 conda create -n flaskr-env python=3.10 -y
+
 conda activate flaskr-env
+
 📥 Install the application
+
 bash
+
 Copy
+
 Edit
+
 pip install -e .
+
 If using the source version of Flask:
 
 bash
+
 Copy
+
 Edit
+
 pip install -e ../..
+
 pip install -e .
+
 🛠️ Running the App
+
 🗄️ Initialize the database
+
 bash
+
 Copy
+
 Edit
+
 flask --app flaskr init-db
+
 💻 Run the development server
+
 bash
+
 Copy
+
 Edit
+
 flask --app flaskr run --debug
+
 Open your browser to: http://127.0.0.1:5000
 
 🧪 Running Tests
+
 Install test dependencies
+
 bash
+
 Copy
+
 Edit
+
 pip install .[test]
+
 Run tests
+
 bash
+
 Copy
+
 Edit
+
 pytest
+
 Run tests with coverage
+
 bash
+
 Copy
+
 Edit
+
 coverage run -m pytest
+
 coverage report
+
 coverage html
+
 Then open htmlcov/index.html in your browser.
 
 📁 Project Structure
+
 csharp
+
 Copy
+
 Edit
+
 flaskr/
 ├── __init__.py        # App factory
 ├── auth.py            # Authentication blueprint
@@ -100,6 +151,7 @@ flaskr/
 ├── schema.sql         # DB schema
 ├── static/            # CSS files
 └── templates/         # HTML templates
+
 📚 What You'll Learn
 How to structure a Flask project
 
@@ -114,6 +166,7 @@ Testing Flask apps with pytest
 Command-line integration with Flask CLI
 
 🧠 Credits
+
 Based on the official Flask tutorial by the Pallets project.
 
 📜 License
